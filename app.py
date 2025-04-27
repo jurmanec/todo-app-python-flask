@@ -26,7 +26,7 @@ def get_db():
 
 # Serve the frontend
 @app.route('/')
-def index():
+def home():
     return render_template('index.html')
 
 # API: List all tasks
